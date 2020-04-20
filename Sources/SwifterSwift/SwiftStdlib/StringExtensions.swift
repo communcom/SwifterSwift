@@ -503,9 +503,9 @@ public extension String {
     ///
     ///        "Hello world".localized -> Hallo Welt
     ///
-    func localized(comment: String = "") -> String {
-        return NSLocalizedString(self, comment: comment)
-    }
+//    func localized(comment: String = "") -> String {
+//        return NSLocalizedString(self, comment: comment)
+//    }
     #endif
 
     /// SwifterSwift: The most common character in string.
